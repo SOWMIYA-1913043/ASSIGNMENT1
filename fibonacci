@@ -1,11 +1,10 @@
 int main()
 {
-    int a=0,b=1,c,d;
+    int a=0,b=1,c,d=0;
     while(a<=4000000){
         a=b;
         b=c;
         c=a+b;
-        printf("fibonacci is:%d\n",c);
         if(a%2==0){
             d=d+a;
         }
